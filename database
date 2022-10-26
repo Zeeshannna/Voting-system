@@ -1,0 +1,9 @@
+CREATE TABLE `election` (
+	`id` INT(11) NOT NULL AUTO_INCREMENT,
+	`condidate_name` VARCHAR(100) NULL DEFAULT NULL,
+	`user_ip` VARCHAR(50) NULL DEFAULT NULL,
+	PRIMARY KEY (`id`)
+)
+COLLATE='latin1_swedish_ci'
+ENGINE=InnoDB
+AUTO_INCREMENT=1; 
